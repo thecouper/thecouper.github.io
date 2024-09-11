@@ -7459,8 +7459,8 @@ ul.work-examples li a span strong em::-moz-selection {
 }
 }
 
-h1,h2,h3,h4,h5,h6,p:not(p+p),a, a.button {
-    background: url(/assets/img/bg2.jpg) 0 0 / cover no-repeat;
+h1,h2,h3,h4,h5,h6,p:not(p+p),a, a.button { 
+    background: url(../img/bg2.JPG) 0 0 / cover no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
