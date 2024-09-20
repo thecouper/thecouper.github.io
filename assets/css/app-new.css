@@ -188,6 +188,7 @@ body {
     margin: 0;
     padding: 0;
     background: #fefefe;
+    /* background: url(../img/bg2.JPG) 0 0 / cover no-repeat; */
     font-family: "Source Sans Pro", Arial, sans-serif;
     font-weight: 400;
     line-height: 1.5;
@@ -6544,9 +6545,9 @@ a.thumbnail image {
     text-shadow: none;
 }
 body {
-    padding: 60px;
+    padding: 0;
     font-family: Calibre, 'Source Sans Pro', Arial, sans-serif;
-    background: #fefefe;
+   /*  background: #fefefe; */
     /* background: linear-gradient(135deg, #e25a00 0, #dd9200 99%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e25a00',  endColorstr='#dd9200',  GradientType=1 ); */
     color: #1f1f1f;
@@ -6564,9 +6565,9 @@ body {
     flex-flow: row wrap;
 }
 h1 {
-    width: calc(100% - 1.875rem);
-    margin-right: .9375rem;
-    margin-left: .9375rem;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
     -webkit-font-kerning: auto;
     font-kerning: auto;
     word-spacing: .1em;
@@ -6574,11 +6575,12 @@ h1 {
     margin-top: 0;
     margin-bottom: 60px;
     padding: 0;
-    line-height: 1;
+    line-height: 0.8;
     text-transform: uppercase;
     font-family: Calibre, 'Source Sans Pro', Arial, sans-serif;
     font-weight: 700;
     font-size: 2.31306em;
+    text-align:justify;
 }
 h1::-moz-selection {
     color: #fff;
@@ -6627,9 +6629,9 @@ h1 span::-moz-selection {
     font-size: 65%!important;
 }
 }h2 {
-    width: calc(100% - 1.875rem);
-    margin-right: .9375rem;
-    margin-left: .9375rem;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
     -webkit-font-kerning: auto;
     font-kerning: auto;
     word-spacing: .1em;
@@ -6642,6 +6644,7 @@ h1 span::-moz-selection {
     font-family: Calibre, 'Source Sans Pro', Arial, sans-serif;
     font-weight: 700;
     font-size: 2.01136em;
+    text-align: justify;
 }
 h2::-moz-selection {
     color: #fff;
@@ -6673,9 +6676,9 @@ h2::-moz-selection {
     font-size: 5.0625em;
 }
 }h3 {
-    width: calc(100% - 1.875rem);
-    margin-right: .9375rem;
-    margin-left: .9375rem;
+    width: 100% ;
+    margin-right: 0;
+    margin-left: 0;
     -webkit-font-kerning: auto;
     font-kerning: auto;
     word-spacing: .1em;
@@ -6688,6 +6691,7 @@ h2::-moz-selection {
     font-family: Calibre, 'Source Sans Pro', Arial, sans-serif;
     font-weight: 700;
     font-size: 1.74901em;
+    text-align: justify;
 }
 h3::-moz-selection {
     color: #fff;
@@ -6719,9 +6723,9 @@ h3::-moz-selection {
     font-size: 3.375em;
 }
 }h4 {
-    width: calc(100% - 1.875rem);
-    margin-right: .9375rem;
-    margin-left: .9375rem;
+    width: 100% ;
+    margin-right: 0;
+    margin-left: 0;
     -webkit-font-kerning: auto;
     font-kerning: auto;
     word-spacing: .1em;
@@ -6734,6 +6738,7 @@ h3::-moz-selection {
     font-family: Calibre, 'Source Sans Pro', Arial, sans-serif;
     font-weight: 700;
     font-size: 1.52087em;
+    text-align: justify;
 }
 h4::-moz-selection {
     color: #fff;
@@ -6765,9 +6770,9 @@ h4::-moz-selection {
     font-size: 2.25em;
 }
 }h5 {
-    width: calc(100% - 1.875rem);
-    margin-right: .9375rem;
-    margin-left: .9375rem;
+    width: 100% ;
+    margin-right: 0;
+    margin-left: 0;
     -webkit-font-kerning: auto;
     font-kerning: auto;
     word-spacing: .1em;
@@ -6780,6 +6785,7 @@ h4::-moz-selection {
     font-family: Calibre, 'Source Sans Pro', Arial, sans-serif;
     font-weight: 700;
     font-size: 1.3225em;
+    text-align: justify;
 }
 h5::-moz-selection {
     color: #fff;
@@ -6813,30 +6819,36 @@ h5::-moz-selection {
 }h1::after, h2::after, h3::after, h4::after, h5::after {
     display: block;
     position: relative;
-    border-bottom: 60px solid rgba(255, 255, 255, .15);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.25);
+    /* background: url(../img/bg2.JPG) 100% 100% / cover no-repeat; */
     height: 1px;
     width: 100%;
     bottom: 0;
     left: 0;
     content: "";
     z-index: -2;
+    opacity: 0.5;
 }
 @media screen and (min-width:40em) and (max-width:63.9375em) {
     h1::after, h2::after, h3::after, h4::after, h5::after {
-    border-bottom: 30px solid rgba(255, 255, 255, .15);
+    /* border-bottom: 30px solid rgba(255, 255, 255, .15); */
+    height: 30px;
 }
 }@media screen and (max-width:39.9375em) {
     h1::after, h2::after, h3::after, h4::after, h5::after {
     bottom: -10px;
-    border-bottom: 20px solid rgba(255, 255, 255, .15);
+    /* border-bottom: 20px solid rgba(255, 255, 255, .15); */
+    height: 20px;
 }
 }h3::after, h4::after, h5::after {
     bottom: -5px;
-    border-bottom: 30px solid rgba(255, 255, 255, .15);
+    /* border-bottom: 30px solid rgba(255, 255, 255, .15); */
+    height: 30px;
 }
 @media screen and (max-width:39.9375em) {
     h3::after, h4::after, h5::after {
-    border-bottom: 15px solid rgba(255, 255, 255, .15);
+    /* border-bottom: 15px solid rgba(255, 255, 255, .15); */
+    height: 15px;
 }
 }p+h1, p+h2, p+h3, p+h4, p+h5 {
     margin-top: 30px;
@@ -6860,15 +6872,16 @@ a::-moz-selection {
     color: #fff;
 }
 p {
-    width: calc(58.33333% - 1.875rem);
-    margin-right: .9375rem;
-    margin-left: .9375rem;
+    width: 100% ;
+    margin-right: 0;
+    margin-left: 0;
     font-size: 1.15em;
     padding-right: 30px;
     line-height: 1.2;
     margin-right: 1%;
     font-family: Calibre, 'Source Sans Pro', Arial, sans-serif;
     font-weight: 700;
+    text-align: justify;
 }
 @media (min-width:25em) and (max-width:110em) {
     p {
@@ -6889,22 +6902,22 @@ p::-moz-selection {
 }
 @media screen and (min-width:40em) and (max-width:63.9375em) {
     p {
-    width: calc(100% - 1.875rem);
-    margin-right: .9375rem;
-    margin-left: .9375rem;
+        width: 100% ;
+        margin-right: 0;
+        margin-left: 0;
     margin-right: 0;
 }
 }@media screen and (max-width:39.9375em) {
     p {
-    width: calc(100% - 1.25rem);
-    margin-right: .625rem;
-    margin-left: .625rem;
+        width: 100% ;
+        margin-right: 0;
+        margin-left: 0;
     margin-right: 0;
 }
 }.copyright {
-    width: calc(100% - 1.875rem);
-    margin-right: .9375rem;
-    margin-left: .9375rem;
+    width: 100% ;
+    margin-right: 0;
+    margin-left: 0;
     font-size: 1em;
     text-align: left;
     padding: 0!important;
@@ -7460,6 +7473,7 @@ ul.work-examples li a span strong em::-moz-selection {
 }
 
 h1,h2,h3,h4,h5,h6,p:not(p+p),a, a.button { 
+    color: #0a0a0a;
     background: url(../img/bg2.JPG) 0 0 / cover no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
