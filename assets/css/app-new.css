@@ -186,7 +186,7 @@ html {
 }
 body {
     margin: 0;
-    padding: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     background: #fefefe;
     /* background: url(../img/bg2.JPG) 0 0 / cover no-repeat; */
     font-family: "Source Sans Pro", Arial, sans-serif;
@@ -1993,37 +1993,37 @@ small {
     font-size: 1.5rem;
     line-height: 1.4;
     margin-top: 0;
-    margin-bottom: .5rem;
+    margin-bottom: .1rem;
 }
 .h2, h2 {
     font-size: 1.25rem;
     line-height: 1.4;
     margin-top: 0;
-    margin-bottom: .5rem;
+    margin-bottom: .1rem;
 }
 .h3, h3 {
     font-size: 1.1875rem;
     line-height: 1.4;
     margin-top: 0;
-    margin-bottom: .5rem;
+    margin-bottom: .1rem;
 }
 .h4, h4 {
     font-size: 1.125rem;
     line-height: 1.4;
     margin-top: 0;
-    margin-bottom: .5rem;
+    margin-bottom: .1rem;
 }
 .h5, h5 {
     font-size: 1.0625rem;
     line-height: 1.4;
     margin-top: 0;
-    margin-bottom: .5rem;
+    margin-bottom: .1rem;
 }
 .h6, h6 {
     font-size: 1rem;
     line-height: 1.4;
     margin-top: 0;
-    margin-bottom: .5rem;
+    margin-bottom: .1rem;
 }
 @media print, screen and (min-width:40em) {
     .h1, h1 {
@@ -2263,7 +2263,7 @@ h2, h3 {
 }.button {
     display: inline-block;
     vertical-align: middle;
-    margin: 0 0 1rem 0;
+    margin: 1rem 0 0 0;
     font-family: inherit;
     padding: .85em 1em;
     -webkit-appearance: none;
@@ -6545,7 +6545,6 @@ a.thumbnail image {
     text-shadow: none;
 }
 body {
-    padding: 0;
     font-family: Calibre, 'Source Sans Pro', Arial, sans-serif;
    /*  background: #fefefe; */
     /* background: linear-gradient(135deg, #e25a00 0, #dd9200 99%);
@@ -6554,7 +6553,7 @@ body {
 }
 @media screen and (max-width:39.9375em) {
     body {
-    padding: 30px;
+    padding: 0.5rem;
 }
 }.main, footer, header {
     display: -webkit-flex;
@@ -6573,7 +6572,7 @@ h1 {
     word-spacing: .1em;
     position: relative;
     margin-top: 0;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     padding: 0;
     line-height: 0.8;
     text-transform: uppercase;
@@ -6583,13 +6582,13 @@ h1 {
     text-align:justify;
 }
 h1::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 h1::selection {
-    color: #fff;
+    color: #000;
 }
 h1::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 @media (min-width:25em) and (max-width:110em) {
     h1 {
@@ -6613,16 +6612,18 @@ h1::-moz-selection {
 }
 }h1 span {
     display: block;
-    font-size: 42%!important;
+    font-size: 45%!important;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
 }
 h1 span::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 h1 span::selection {
-    color: #fff;
+    color: #000;
 }
 h1 span::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 @media screen and (max-width:39.9375em) {
     h1 span {
@@ -6637,7 +6638,7 @@ h1 span::-moz-selection {
     word-spacing: .1em;
     position: relative;
     margin-top: 0;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     padding: 0;
     line-height: 1;
     text-transform: uppercase;
@@ -6647,13 +6648,13 @@ h1 span::-moz-selection {
     text-align: justify;
 }
 h2::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 h2::selection {
-    color: #fff;
+    color: #000;
 }
 h2::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 @media (min-width:25em) and (max-width:110em) {
     h2 {
@@ -6684,7 +6685,7 @@ h2::-moz-selection {
     word-spacing: .1em;
     position: relative;
     margin-top: 0;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     padding: 0;
     line-height: 1;
     text-transform: uppercase;
@@ -6694,13 +6695,13 @@ h2::-moz-selection {
     text-align: justify;
 }
 h3::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 h3::selection {
-    color: #fff;
+    color: #000;
 }
 h3::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 @media (min-width:25em) and (max-width:110em) {
     h3 {
@@ -6731,7 +6732,7 @@ h3::-moz-selection {
     word-spacing: .1em;
     position: relative;
     margin-top: 0;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     padding: 0;
     line-height: 1;
     text-transform: uppercase;
@@ -6741,13 +6742,13 @@ h3::-moz-selection {
     text-align: justify;
 }
 h4::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 h4::selection {
-    color: #fff;
+    color: #000;
 }
 h4::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 @media (min-width:25em) and (max-width:110em) {
     h4 {
@@ -6778,7 +6779,7 @@ h4::-moz-selection {
     word-spacing: .1em;
     position: relative;
     margin-top: 0;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     padding: 0;
     line-height: 1;
     text-transform: uppercase;
@@ -6788,13 +6789,13 @@ h4::-moz-selection {
     text-align: justify;
 }
 h5::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 h5::selection {
-    color: #fff;
+    color: #000;
 }
 h5::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 @media (min-width:25em) and (max-width:110em) {
     h5 {
@@ -6820,6 +6821,7 @@ h5::-moz-selection {
     display: block;
     position: relative;
     border-bottom: 10px solid rgba(0, 0, 0, 0.25);
+    border-bottom:none;
     /* background: url(../img/bg2.JPG) 100% 100% / cover no-repeat; */
     height: 1px;
     width: 100%;
@@ -6828,6 +6830,7 @@ h5::-moz-selection {
     content: "";
     z-index: -2;
     opacity: 0.5;
+    height:0 !important;
 }
 @media screen and (min-width:40em) and (max-width:63.9375em) {
     h1::after, h2::after, h3::after, h4::after, h5::after {
@@ -6863,13 +6866,13 @@ a:visited {
     color: #1f1f1f;
 }
 a::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 a::selection {
-    color: #fff;
+    color: #000;
 }
 a::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 p {
     width: 100% ;
@@ -6892,13 +6895,13 @@ p {
     font-size: 1.5em;
 }
 }p::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 p::selection {
-    color: #fff;
+    color: #000;
 }
 p::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 @media screen and (min-width:40em) and (max-width:63.9375em) {
     p {
@@ -6933,32 +6936,32 @@ p::-moz-selection {
     .copyright {
     font-size: 1em;
 }
-}h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
-    width: calc(75% - 1.875rem);
-    margin-right: .9375rem;
-    margin-left: .9375rem;
+}h1+p, h2+p, h3+p, h4+p, h5+p, h6+p, p {
+    width: 75%;
+    margin-right: 0;
+    margin-left: 0;
     font-size: 1.3225em;
     margin-bottom: 15px;
 }
 @media (min-width:25em) and (max-width:110em) {
-    h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+    h1+p, h2+p, h3+p, h4+p, h5+p, h6+p, p {
     font-size: calc(1.3225em + .9275 * ((100vw - 25em)/ 85));
 }
 }@media (min-width:110em) {
-    h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+    h1+p, h2+p, h3+p, h4+p, h5+p, h6+p, p {
     font-size: 2.25em;
 }
 }@media screen and (min-width:40em) and (max-width:63.9375em) {
-    h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
-    width: calc(100% - 1.875rem);
-    margin-right: .9375rem;
-    margin-left: .9375rem;
+    h1+p, h2+p, h3+p, h4+p, h5+p, h6+p, p {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
 }
 }@media screen and (max-width:39.9375em) {
-    h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
-    width: calc(100% - 1.25rem);
-    margin-right: .625rem;
-    margin-left: .625rem;
+    h1+p, h2+p, h3+p, h4+p, h5+p, h6+p, p {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
 }
 }p+p {
     text-indent: 20px;
@@ -6966,17 +6969,17 @@ p::-moz-selection {
     font-weight: 500;
 }
 p:last-of-type {
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 a.button {
-    width: calc(100% - 1.875rem);
-    margin-right: .9375rem;
-    margin-left: .9375rem;
+    width: max-content;
+    margin-right: 0;
+    margin-left: 0;
     -webkit-font-kerning: auto;
     font-kerning: auto;
     word-spacing: .1em;
     position: relative;
-    margin-top: 0;
+    margin-top: 30px;
     display: block;
     text-transform: uppercase;
     background: #fefefe;
@@ -6985,35 +6988,33 @@ a.button {
     font-family: "Source Sans Pro", Arial, sans-serif;
     text-align: left!important;
     line-height: .9!important;
-    padding-right: 15%!important;
-    padding-top: 60px!important;
-    padding-left: 30px!important;
-    padding-bottom: 30px!important;
-    margin-left: auto!important;
-    margin-bottom: 120px;
+    padding:0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 30px;
+    border-bottom:5px solid transparent;
 }
 a.button::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 a.button::selection {
-    color: #fff;
+    color: #000;
 }
 a.button::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 a.button span {
-    font-size: 65%!important;
+    font-size: 50%!important;
     display: block;
     margin-top: 5px;
 }
 a.button span::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 a.button span::selection {
-    color: #fff;
+    color: #000;
 }
 a.button span::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 a.button::-moz-selection {
     background: 0 0;
@@ -7027,21 +7028,36 @@ a.button::-moz-selection {
 @media screen and (min-width:40em) and (max-width:63.9375em) {
     a.button {
     width: calc(100% - 1.875rem);
-    margin-right: .9375rem;
-    margin-left: .9375rem;
-    margin-bottom: 60px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 10px;
 }
 }@media screen and (max-width:39.9375em) {
     a.button {
     width: calc(100% - 1.25rem);
-    margin-right: .625rem;
-    margin-left: .625rem;
+    margin-right: 0;
+    margin-left: 0;
     font-size: 1.5em!important;
-    margin-bottom: 60px;
+    margin-top: 10px;
 }
-}a.button:hover {
-    background: rgba(255, 255, 255, .15);
-    color: #1f1f1f;
+
+}
+
+a.button {
+    
+}
+
+
+
+a.button:hover {
+    /* background: rgba(255, 255, 255, .15); */
+    /* color: #1f1f1f; */
+    border-bottom:5px solid #1f1f1f;
+
+    background: #1f1f1f;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+
 }
 .footer a.button {
     margin-bottom: 30px!important;
@@ -7050,8 +7066,8 @@ img {
     width: calc(91.66667% - 1.875rem);
     margin-right: .9375rem;
     margin-left: .9375rem;
-    margin-top: 30px;
-    margin-bottom: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 60px;
     margin-right: 60px;
     border-left: 15px solid rgba(255, 255, 255, .15);
@@ -7153,13 +7169,13 @@ img {
     font-size: 1.5em;
 }
 }blockquote cite::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 blockquote cite::selection {
-    color: #fff;
+    color: #000;
 }
 blockquote cite::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 ul {
     width: calc(83.33333% - 1.875rem);
@@ -7338,13 +7354,13 @@ ul.work-examples li {
     z-index: 1003;
 }
 ul.work-examples li img::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 ul.work-examples li img::selection {
-    color: #fff;
+    color: #000;
 }
 ul.work-examples li img::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 ul.work-examples li a {
     position: relative;
@@ -7356,13 +7372,13 @@ ul.work-examples li a {
     text-align: center;
 }
 ul.work-examples li a::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 ul.work-examples li a::selection {
-    color: #fff;
+    color: #000;
 }
 ul.work-examples li a::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 ul.work-examples li a span {
     text-indent: -5000em;
@@ -7378,13 +7394,13 @@ ul.work-examples li a span {
     text-align: center;
 }
 ul.work-examples li a span::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 ul.work-examples li a span::selection {
-    color: #fff;
+    color: #000;
 }
 ul.work-examples li a span::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 @media screen and (max-width:39.9375em) {
     ul.work-examples li a span {
@@ -7411,13 +7427,13 @@ ul.work-examples li a span::-moz-selection {
     font-size: 1em;
 }
 ul.work-examples li a span strong::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 ul.work-examples li a span strong::selection {
-    color: #fff;
+    color: #000;
 }
 ul.work-examples li a span strong::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 @media screen and (max-width:63.9375em) {
     ul.work-examples li a span strong {
@@ -7434,13 +7450,13 @@ ul.work-examples li a span strong::-moz-selection {
     margin-top: 5px;
 }
 ul.work-examples li a span strong em::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 ul.work-examples li a span strong em::selection {
-    color: #fff;
+    color: #000;
 }
 ul.work-examples li a span strong em::-moz-selection {
-    color: #fff;
+    color: #000;
 }
 @media screen and (min-width:40em) {
     ul.work-examples li a:hover span {
@@ -7472,9 +7488,29 @@ ul.work-examples li a span strong em::-moz-selection {
 }
 }
 
-h1,h2,h3,h4,h5,h6,p:not(p+p),a, a.button { 
+h1,h2,h3,h4,h5,h6,p:not(p+p),a, a.button{ 
     color: #0a0a0a;
-    background: url(../img/bg2.JPG) 0 0 / cover no-repeat;
+    background: url(../img/bg2.jpg) 0 0 / cover no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+ .dark-mode{
+    background: #000000;
+ }
+
+ .dark-mode h1,
+ .dark-mode h2,
+ .dark-mode h3,
+ .dark-mode h4,
+ .dark-mode h5,
+ .dark-mode h6,
+ .dark-mode p:not(p+p),
+ .dark-mode a, 
+ .dark-mode a.button { 
+    color: #ffffff;
+    background: url(../img/bg4.JPG) 0 0 / cover no-repeat;
+    filter:invert(1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
  }
